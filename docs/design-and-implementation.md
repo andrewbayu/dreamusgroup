@@ -1,0 +1,20 @@
+# SuperPark commercial proposal
+
+The supplied complete research and website brief is the specification. The current session authorizes building and deploying to `andrewbayu/dreamusgroup`. The repository was inspected through GitHub and cloned; it was empty, with default branch `main`.
+
+## Design
+
+Swiss editorial direction: quiet off-white canvas, large Manrope headlines, DM Sans body, cobalt navigation/data accents, limited orange emphasis. Twelve narrative sections map to the six requested stages. Content is English and focuses on SuperPark; DreamUs is the portfolio context. Original conceptual diagrams replace photography whose reuse was not approved.
+
+## Architecture
+
+React, TypeScript and Vite; client-only static build. Typed sources and public facts are separated from hypotheses and model defaults. Reusable tabs, native modal dialogs, storyboards and a pure economics function keep interactive logic local. Hash navigation supports reading and presentation modes. Model edge cases have independent fixture tests. No API, visitor storage, tracking, authentication, payments or confidential preparation notes.
+
+## Completion sequence
+
+1. Inspect repository and brief; refresh source links and current official stack documentation.
+2. Scaffold source repository; write economic expectations before implementing equations.
+3. Build all chapters, typed content, calculator and responsive editorial layout.
+4. Verify production build, economic edge cases and browser interactions at desktop/mobile widths.
+5. Add assets, methodology, QA documentation and GitHub Pages build/test/deploy workflow.
+6. Commit and push without force; verify remote commit, deployment job and published website.
