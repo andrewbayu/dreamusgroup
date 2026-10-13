@@ -1,0 +1,19 @@
+position,library_id,start_date,ads_in_group,theme,visible_cta,display_domain,note
+R1C1,1090715153686819,2026-10-01,1,General/social play,Book now,superpark.id,Gen Z and date or friends message; body also mentions Traveloka/link in bio
+R1C2,1745388970005092,2026-10-05,1,General/social play,Book now,www.dreamus-online.id,Weekend and workday recharge; mentions colleagues
+R1C3,1817542773012675,2026-10-01,1,General/social play,Book now,superpark.id,Visitor-type engagement prompt
+R1C4,1349962547213956,2026-09-30,1,10.10 discount,Book now,dreamus-online.id,10 percent discount with stated dates and 2-hour playtime
+R1C5,954150210575861,2026-10-05,1,Family creator,Buy tickets,www.dreamus-online.id,Creator co-branded with SuperPark; family framing
+R2C1,1427284376204485,2026-09-30,1,Birthday,Send WhatsApp,api.whatsapp.com,Birthday inclusions and contact
+R2C2,2885833041775283,2026-10-01,1,Birthday,Send WhatsApp,api.whatsapp.com,Same birthday copy with different video preview
+R2C3,2039617490060594,2026-09-27,1,School/playdate,Send WhatsApp,api.whatsapp.com,Post-UTS class outing; price and minimum group size
+R2C4,1136276938813076,2026-10-07,1,Corporate,Send WhatsApp,api.whatsapp.com,Office organiser and HR; budget-friendly message
+R2C5,1407107854740339,2026-10-07,1,Corporate,Send WhatsApp,api.whatsapp.com,October team bonding; 200K per person and minimum 10 people stated
+R3C1,1516023850364107,2026-10-09,3,Halloween,Not visible,Not visible,Grouped card; event dates and link-in-bio instruction
+R3C2,1759585305336512,2026-10-07,1,Corporate,Send WhatsApp,api.whatsapp.com,Indoor team-building message
+R3C3,1101360866124709,2026-10-06,4,Halloween,Not visible,Not visible,Pre-sale sold-out headline with conflicting pre-sale urgency lower in copy
+R3C4,1692442188916708,2026-10-01,1,School/playdate,Send WhatsApp,api.whatsapp.com,Indoor field trip
+R3C5,1626549725788336,2026-10-09,1,Halloween,Buy tickets,www.dreamus-online.id,Event dates and link-in-bio instruction
+R4C1,3406787999504669,2026-10-01,1,School/playdate,Send WhatsApp,api.whatsapp.com,School programmes and inclusions
+R4C2,1089967700242153,2026-09-30,1,School/playdate,Send WhatsApp,api.whatsapp.com,School throwback carousel; several assets within one visible card
+R4C3,3395757387293300,2026-10-13,2,Halloween,Not visible,Not visible,Grouped card; Low impression count label after five hours; not a performance verdict

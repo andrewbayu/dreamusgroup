@@ -1,6 +1,6 @@
 # SuperPark Indonesia — A Reason to Return
 
-Interactive executive proposal for DreamUs leadership, prepared by Aditya Indra Bayu. Fourteen English chapters connect public research, customer occasions, proposed activation, access subscriptions and TikTok demand generation. Client-only React + TypeScript + Vite; no tracking, credentials, visitor storage or payments.
+Interactive executive proposal for DreamUs leadership, prepared by Aditya Indra Bayu. Sixteen English chapters connect public research, customer occasions, proposed activation, access subscriptions and TikTok demand generation. Client-only React + TypeScript + Vite; no tracking, credentials, visitor storage or payments.
 
 ## Run locally
 
@@ -18,7 +18,7 @@ npm run preview
 
 ## Present and read
 
-- Reading mode shows all fourteen chapters with chapter navigation and scroll progress.
+- Reading mode shows all sixteen chapters with chapter navigation and scroll progress.
 - **Present** starts one chapter at a time. Arrows and PageUp/PageDown navigate; Escape exits. Inputs and tab controls retain their own keyboard behavior.
 - The presentation toolbar offers next/previous, chapter selection, optional fullscreen and public speaker notes. Long chapters scroll normally so details remain available.
 - Section hashes such as `#subscription` work in both modes. Tab selections and calculator inputs survive navigation within the current page; no visitor data is persisted.
@@ -31,7 +31,8 @@ npm run preview
 | File | Purpose |
 | --- | --- |
 | `src/content/proposal.ts` | Chapters, proposed personas, activation/video storyboards, plan and alignment checklist |
-| `src/content/sources.ts` | Typed source register S1–S23 and public survey facts |
+| `src/content/sources.ts` | Typed source register S1–S29 and public survey facts |
+| `src/content/digitalAudit.ts` | Meta snapshot inventory, booking routes and audit actions |
 | `src/content/portfolio.ts` | Three-brand map, competitive comparison and priority reasons |
 | `src/content/assumptions.ts` | Illustrative model defaults, units, descriptions and supported UI ranges |
 | `src/lib/subscriptionEconomics.ts` | Pure equations and numerical validation |
@@ -80,6 +81,10 @@ The session requested deployment to https://github.com/andrewbayu/dreamusgroup. 
 `.github/workflows/deploy.yml` installs locked dependencies, runs unit tests, builds, uploads `dist/` and deploys through the `github-pages` environment. Repository Settings → Pages must use **GitHub Actions**. Pushes to `main` publish; pull requests build and test without publishing. No custom domain or secret is required. Other static hosts can publish `dist/` after `npm ci && npm run build`.
 
 ## Verification and remaining inputs
+
+Digital audit revision, 14 October 2026: new chapters 8–9 analyse the supplied Meta screenshot and the public booking journey, before the three actions. The deck now has 16 chapters. The 18-card inventory reconciles to 24 grouped ads; visible CTA counts reconcile to 9 WhatsApp, 6 booking and 3 not shown. These are inventory counts, not spend or performance. See [full audit](docs/meta-and-digital-audit.md) and [card inventory](docs/meta-ads-snapshot.csv). Self-service corporate empty states are labelled by venue/date and kept separate from the observed WhatsApp ad route.
+
+Audit update QA: production build and 12 economics tests passed; the CSV totals reconciled independently. Browser QA verified all 16 presentation states, one visible chapter per state, the final Next boundary, the new source drawer, and both audit chapters at desktop 1280×800 and mobile 360×800. Mobile page width stayed within the viewport, and the proposal produced no captured console errors or warnings.
 
 Portfolio revision, 14 October 2026: new slides 2–3 map Pororo Park, Tayo Station and SuperPark, then explain the first adult/corporate growth test. Previous slides shift by two. The comparison follows a buyer → offer → alternatives → implication template; it makes no relative market-density or saturation claim. All chapter counters and source totals are dynamic, and action links resolve by stable chapter ID.
 

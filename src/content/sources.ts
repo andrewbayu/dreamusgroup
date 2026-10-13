@@ -1,5 +1,5 @@
 export type EvidenceStatus = 'Verified public fact' | 'Company claim' | 'Strategic hypothesis' | 'Illustrative model';
-export type Source = { id: string; title: string; publisher: string; url: string; researchCheckedAt: string; publicationPeriod: string; evidenceType: 'company-positioning' | 'company-claim' | 'survey' | 'case-study'; caveat: string };
+export type Source = { id: string; title: string; publisher: string; url: string; researchCheckedAt: string; publicationPeriod: string; evidenceType: 'company-positioning' | 'company-claim' | 'survey' | 'case-study' | 'user-snapshot' | 'public-ui-audit'; caveat: string };
 const originalSources: Source[] = [
   { id: 'S1', title: 'The Concept', publisher: 'SuperPark United', url: 'https://www.superparkunited.com/concept/', publicationPeriod: 'Live company page', evidenceType: 'company-positioning', caveat: 'Global all-age positioning. Global activity inventory is not the inventory of an Indonesian venue.' },
   { id: 'S2', title: 'For Groups', publisher: 'SuperPark Singapore', url: 'https://www.superpark.com.sg/groups/', publicationPeriod: 'Live product page', evidenceType: 'company-positioning', caveat: 'Singapore school and group programmes. Availability does not establish adoption or Indonesian demand.' },
@@ -117,7 +117,64 @@ const portfolioSources: Source[] = [
   }
 ].map(source => ({ ...source, researchCheckedAt: '2026-10-14' })) as Source[];
 
-export const sources: Source[] = [...originalSources, ...portfolioSources];
+const digitalAuditSources: Source[] = [
+  {
+    "id": "S24",
+    "title": "Meta Ads screenshot inventory",
+    "publisher": "User-supplied Meta Ad Library capture",
+    "url": "https://github.com/andrewbayu/dreamusgroup/blob/main/docs/meta-ads-snapshot.csv",
+    "publicationPeriod": "Capture filename: 14 October 2026, 00:07:53",
+    "evidenceType": "user-snapshot",
+    "caveat": "18 visible cards; three group labels expand to 24 ads. Theme and CTA counts describe cards, not campaigns, spend or performance. Full ad landing URLs and videos were not tested from the still image."
+  },
+  {
+    "id": "S25",
+    "title": "SuperPark brand-site audit",
+    "publisher": "SuperPark Indonesia / observed public UI",
+    "url": "https://superpark.id/",
+    "publicationPeriod": "Browser check 14 October 2026",
+    "evidenceType": "public-ui-audit",
+    "caveat": "Adult/corporate content and a Buy Ticket deep link exist. Desktop and settled mobile layouts inspected. No traffic, conversion rate, ranking or loading-speed score measured."
+  },
+  {
+    "id": "S26",
+    "title": "DreamUs PIM booking home",
+    "publisher": "DreamUs Edutainment Indonesia / observed public UI",
+    "url": "https://www.dreamus-online.id/superpark/pim/online-sales/home",
+    "publicationPeriod": "Browser check 14 October 2026",
+    "evidenceType": "public-ui-audit",
+    "caveat": "Venue/date tickets, cart, membership and programme navigation observed. Payment was not completed. Single-visit unlimited playtime is not an unlimited recurring pass."
+  },
+  {
+    "id": "S27",
+    "title": "PIM Team Building category",
+    "publisher": "DreamUs Edutainment Indonesia / observed public UI",
+    "url": "https://www.dreamus-online.id/superpark/pim/online-sales/program",
+    "publicationPeriod": "Sample dates: 14 and 15 October 2026",
+    "evidenceType": "public-ui-audit",
+    "caveat": "Products Not Found after date confirmation in the two sampled states. Does not establish why, availability on all dates, or failure of WhatsApp corporate sales."
+  },
+  {
+    "id": "S28",
+    "title": "Puri Team Building category",
+    "publisher": "DreamUs Edutainment Indonesia / observed public UI",
+    "url": "https://www.dreamus-online.id/superpark/puri/online-sales/program",
+    "publicationPeriod": "Confirmed sample date: 15 October 2026",
+    "evidenceType": "public-ui-audit",
+    "caveat": "Products Not Found after date confirmation in the sampled state. Current corporate ads shown use WhatsApp; this self-service route is a separate website path. Footer email exists, but no adjacent quote fallback was visible."
+  },
+  {
+    "id": "S29",
+    "title": "Ticket information and booking links",
+    "publisher": "SuperPark Indonesia",
+    "url": "https://superpark.id/ticket-info/",
+    "publicationPeriod": "Public page checked 14 October 2026",
+    "evidenceType": "public-ui-audit",
+    "caveat": "Links to venue booking and membership. Public script hints and cross-domain linker decoration do not validate Purchase events, attribution, server events or deduplication."
+  }
+].map(source => ({ ...source, researchCheckedAt: '2026-10-14' })) as Source[];
+
+export const sources: Source[] = [...originalSources, ...portfolioSources, ...digitalAuditSources];
 
 export const facts: { title: string; body: string; status: EvidenceStatus; sourceIds: string[]; metric?: number; sampleContext?: string }[] = [
   { title: 'Experiences matter', body: 'of Indonesian respondents say spending on experiences is essential.', status: 'Verified public fact', sourceIds: ['S7'], metric: 76, sampleContext: 'UOB ACSS 2025 · Regional n=5,000 across five countries; figure is Indonesia-specific.' },
