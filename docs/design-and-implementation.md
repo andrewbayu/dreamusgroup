@@ -4,7 +4,7 @@ The supplied complete research and website brief is the specification. The curre
 
 ## Design
 
-Swiss editorial direction: quiet off-white canvas, large Manrope headlines, DM Sans body, cobalt navigation/data accents, limited orange emphasis. Twelve narrative sections map to the six requested stages. Content is English and focuses on SuperPark; DreamUs is the portfolio context. Original conceptual diagrams replace photography whose reuse was not approved.
+Swiss editorial direction: quiet off-white canvas, large Manrope headlines, DM Sans body, cobalt navigation/data accents, limited orange emphasis. Twelve narrative sections map to the six requested stages. Content is English and focuses on SuperPark; DreamUs is the portfolio context. Following the user's visual refresh request, twelve image_gen editorial gouache illustrations and infographics replace the original simple diagrams. These are conceptual illustrations, not photographs or venue evidence. Full prompts and the asset manifest are in docs.
 
 ## Architecture
 

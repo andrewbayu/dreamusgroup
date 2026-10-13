@@ -35,7 +35,9 @@ npm run preview
 | `src/content/assumptions.ts` | Illustrative model defaults, units, descriptions and supported UI ranges |
 | `src/lib/subscriptionEconomics.ts` | Pure equations and numerical validation |
 | `src/App.tsx` | Narrative composition, hash navigation and presentation controls |
-| `src/styles/main.css` | Responsive editorial tokens and print stylesheet |
+| `src/styles/main.css`, `src/styles/visuals.css` | Responsive editorial tokens, image treatments and print stylesheet |
+| `src/content/visuals.ts`, `src/components/EditorialVisual.tsx` | Descriptions, responsive images and conceptual captions |
+| `docs/visual-prompts.json` | Complete prompt set for twelve image_gen originals |
 
 Facts, company positioning/claims, hypotheses and illustrative calculations have different evidence labels. Product concepts are not current offers. No internal performance figures, customer mix, campaign metrics, venue layouts or service prices have been invented. No numeric WSE case-study results are included because the supplied candidate page could not be verified.
 
@@ -66,7 +68,9 @@ Contribution excludes fixed costs, displaced peak ticket customers, opportunity 
 
 Sources S1–S12 were reviewed against the supplied research register and reopened on 13 October 2026. Live pages may change. Databoks is a secondary report; its English text is automatically translated. Populix detail is gated and no detailed percentages are used. Company-reported awards are not financial performance evidence. See the site’s evidence drawer for normal clickable links and caveats.
 
-See [asset manifest](docs/asset-manifest.md). Original neutral SVG concepts replace missing approved photographs; no fabricated SuperPark visitors, facilities, testimonials or posts. Fonts are self-hosted; icons are Lucide. Client-approved photography and Aditya’s approved portrait can be added after reuse permission is documented.
+See [asset manifest](docs/asset-manifest.md). Twelve original horizontal illustrations were generated with the built-in image_gen tool and visually inspected. Editorial gouache images, survey/offer/access/workflow infographics and distinctive scene thumbnails support each chapter. All human/event imagery is clearly labelled conceptual. No generated photograph is presented as an actual SuperPark visitor, facility, testimonial, employee or post.
+
+Responsive WebP variants, intrinsic dimensions, explicit sizes/srcset and lazy loading limit transfer and layout shift. The hero loads eagerly; calculator equations and source definitions remain accessible HTML. The infographic with 76%, 38% and 32% is a visual companion to the separate source/sample definitions below it. Regenerate that image if its underlying facts change. Fonts are self-hosted; icons are Lucide. Client-approved photography and Aditya’s approved portrait can be added after reuse permission is documented. Full generation prompts are saved in [visual-prompts.json](docs/visual-prompts.json).
 
 ## Deployment
 
@@ -80,6 +84,7 @@ The session requested deployment to https://github.com/andrewbayu/dreamusgroup. 
 - Twelve independent economics tests passed, including demo values, high usage, zero cost/customers/visits, fractional averages, invalid inputs, fee bounds, numeric overflow and annual separation.
 - Production browser QA: desktop 1280×720 and mobile 360×800; all persona and activation tabs, all eight storyboards, all four plan stages, source drawer dismissal/focus return, calculator defaults/high use/zero values/invalid input/reset/annual separation, chapter selection, presentation keyboard navigation, input protection and clean exit.
 - No horizontal overflow at 360px and no captured console errors or warnings in the tested interactions.
+- Visual refresh QA: all twelve presentation chapters loaded their image assets; three activation selections use distinct programme art; all five video dialogs loaded their corresponding scenes. Desktop 1280×720 and mobile 360×800 were inspected, including infographic readability, full-composition image treatment, scene crops, dialog Escape behavior and alt descriptions. All 18 images in reading mode have explicit intrinsic dimensions and descriptive alt text.
 - Browser Print action was exercised: details expanded before printing and their previous state was restored afterward. The in-app browser did not expose a PDF print preview, so exact page-break and PDF-export QA remains unverified. The stylesheet reveals sources, keeps all chapters in order and excludes controls/notes.
 
 Commercial readiness still requires approved photography/proof assets, full current catalogue, first-party ticket economics and frequency, venue capacity/safety constraints, system capability and leadership approval of any actual pilot. Nothing on this site is a consumer checkout or an approved launch offer.

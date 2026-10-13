@@ -1,15 +1,40 @@
 # Asset manifest
 
-No client-approved photography or portrait was supplied. The finished site uses original neutral vector art and labelled conceptual diagrams. Public brand photos are linked through source pages instead of copied without permission.
+The proposal includes twelve AI-generated editorial illustrations, one original horizontal composition per chapter. They were generated with the built-in image_gen tool on 13 October 2026 under the user's request. Their role is conceptual illustration, not evidence of actual SuperPark facilities, visitors, events, staff, posts or product availability. No client-approved photography or portrait was supplied.
 
-| Asset | Origin / URL | Permission / status | Country / venue | Alt / caption | Dimensions |
-| --- | --- | --- | --- | --- | --- |
-| Shared-play hero and activation art | `src/components/PlayGraphic.tsx` | Original SVG created for this proposal; conceptual | No real location | Conceptual illustration of people sharing a playful group challenge, not an actual SuperPark venue | SVG viewBox 520 × 400, responsive intrinsic aspect ratio |
-| Three frames per activation/TikTok detail | `src/components/Storyboards.tsx` + PlayGraphic | Original SVG and written frame descriptions; proposed concept | No real venue or visitors | Frame sequence and purpose provided in adjacent figcaptions | Responsive SVG |
-| Five phone-shaped TikTok concepts | `src/components/Storyboards.tsx` | Original CSS composition, Lucide icons; illustrative storyboard | No real posts | Audience, scene, message, CTA and measurement in accessible dialog | CSS aspect ratio 9:15 |
-| Header mark and favicon | `src/App.tsx`, `public/favicon.svg` | Original proposal mark, not an official brand logo | Not applicable | DreamUs Group proposal home | Vector |
-| Interface icons | https://lucide.dev/ | Lucide ISC licence; dependency licence retained | Not applicable | Decorative icons paired with semantic labels | Responsive SVG |
-| DM Sans, Manrope | https://fontsource.org/fonts/dm-sans and https://fontsource.org/fonts/manrope | SIL Open Font Licence; self-hosted through Fontsource; dependency licences retained | Not applicable | Body / display typography | Local WOFF2 with WOFF fallback |
-| Aditya portrait | Not supplied | Omitted | Not applicable | Byline uses an initials mark rather than a substitute person | Not applicable |
+The files in `public/assets/visuals/` are responsive WebP deliveries at 640, 1200 and 1672 pixels wide. Original PNGs are preserved in the workspace's `dreamusgroup-visual-originals/` directory. Full prompts are in [visual-prompts.json](visual-prompts.json). All twelve originals were visually inspected after generation.
 
-Replace conceptual art only with permissioned authentic assets. Record URL/origin, permission and approval owner, venue/country, alt text, caption, dimensions and responsive variants before including photos. Singapore imagery must be captioned as an international reference. Size photos intrinsically, use appropriate crops and lazy-load below the fold.
+| Chapter | Asset | Origin / status | Content and caption status |
+| --- | --- | --- | --- |
+| 01 | [discovery-social-play](../public/assets/visuals/discovery-social-play-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 02 | [concept-all-age](../public/assets/visuals/concept-all-age-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 03 | [evidence-consumer-signals](../public/assets/visuals/evidence-consumer-signals-1672.webp) | Built-in image_gen; requested by user | Independent survey infographic; S7/S8 definitions and samples remain in HTML |
+| 04 | [occasions-organiser](../public/assets/visuals/occasions-organiser-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 05 | [benchmark-offer](../public/assets/visuals/benchmark-offer-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 06 | [moves-commercial](../public/assets/visuals/moves-commercial-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 07 | [activation-play-sessions](../public/assets/visuals/activation-play-sessions-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 08 | [subscription-access](../public/assets/visuals/subscription-access-1672.webp) | Built-in image_gen; requested by user | Duration / entitlement; product concepts, not available offers |
+| 09 | [tiktok-storyboards](../public/assets/visuals/tiktok-storyboards-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 10 | [plan-workflow](../public/assets/visuals/plan-workflow-1672.webp) | Built-in image_gen; requested by user | Work sequence; no fixed dates |
+| 11 | [mandate-collaboration](../public/assets/visuals/mandate-collaboration-1672.webp) | Built-in image_gen; requested by user | Collaboration concept; not actual team or Aditya portrait |
+| 12 | [closing-first-pilot](../public/assets/visuals/closing-first-pilot-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+
+## Frontend handling
+
+- Hero loads eagerly at high fetch priority; other images lazy-load with async decoding.
+- Every image has intrinsic width/height, descriptive alt text, responsive srcset and sizes. Infographics preserve their full composition.
+- Scene thumbnails for the three commercial moves, three activation programmes and five TikTok concepts use WebP crops from their corresponding section illustration. They are not separate factual photographs.
+- Storyboard dialogs show one relevant concept image with three readable scene descriptions, CTA and measurement plan.
+- Source definitions and model equations remain typed HTML/React content. Regenerate the survey infographic if underlying research facts change.
+- No generated photorealistic facility, visitor testimonial, actual employee likeness, venue map or existing-post screenshot is used.
+
+## Other assets
+
+| Asset | Origin / status |
+| --- | --- |
+| Header mark and favicon | Original proposal mark, not an official brand logo |
+| Interface icons | https://lucide.dev/ — ISC-licensed package |
+| DM Sans and Manrope | Fontsource; SIL Open Font Licence, self-hosted |
+| Aditya portrait | Not supplied; initials mark retained |
+
+Before adding authentic photos, record origin URL, reuse permission, country/venue, approval owner, alt text, caption, dimensions and responsive variants. Singapore photos must be labelled as international references.
