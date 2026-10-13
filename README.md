@@ -1,6 +1,6 @@
-# SuperPark Indonesia — Turning Play into a Stronger Business Offer
+# SuperPark Indonesia — A Reason to Return
 
-Interactive executive proposal for DreamUs leadership, prepared by Aditya Indra Bayu. Twelve English chapters connect public research, customer occasions, proposed activation, access subscriptions and TikTok demand generation. Client-only React + TypeScript + Vite; no tracking, credentials, visitor storage or payments.
+Interactive executive proposal for DreamUs leadership, prepared by Aditya Indra Bayu. Fourteen English chapters connect public research, customer occasions, proposed activation, access subscriptions and TikTok demand generation. Client-only React + TypeScript + Vite; no tracking, credentials, visitor storage or payments.
 
 ## Run locally
 
@@ -18,7 +18,7 @@ npm run preview
 
 ## Present and read
 
-- Reading mode shows all twelve chapters with chapter navigation and scroll progress.
+- Reading mode shows all fourteen chapters with chapter navigation and scroll progress.
 - **Present** starts one chapter at a time. Arrows and PageUp/PageDown navigate; Escape exits. Inputs and tab controls retain their own keyboard behavior.
 - The presentation toolbar offers next/previous, chapter selection, optional fullscreen and public speaker notes. Long chapters scroll normally so details remain available.
 - Section hashes such as `#subscription` work in both modes. Tab selections and calculator inputs survive navigation within the current page; no visitor data is persisted.
@@ -31,7 +31,8 @@ npm run preview
 | File | Purpose |
 | --- | --- |
 | `src/content/proposal.ts` | Chapters, proposed personas, activation/video storyboards, plan and alignment checklist |
-| `src/content/sources.ts` | Typed source register S1–S12 and public survey facts |
+| `src/content/sources.ts` | Typed source register S1–S23 and public survey facts |
+| `src/content/portfolio.ts` | Three-brand map, competitive comparison and priority reasons |
 | `src/content/assumptions.ts` | Illustrative model defaults, units, descriptions and supported UI ranges |
 | `src/lib/subscriptionEconomics.ts` | Pure equations and numerical validation |
 | `src/App.tsx` | Narrative composition, hash navigation and presentation controls |
@@ -66,7 +67,7 @@ Contribution excludes fixed costs, displaced peak ticket customers, opportunity 
 
 ## Sources and assets
 
-Sources S1–S12 were reviewed against the supplied research register and reopened on 13 October 2026. Live pages may change. Databoks is a secondary report; its English text is automatically translated. Populix detail is gated and no detailed percentages are used. Company-reported awards are not financial performance evidence. See the site’s evidence drawer for normal clickable links and caveats.
+Sources S1–S12 were reviewed against the supplied research register and reopened on 13 October 2026. Live pages may change. Databoks is a secondary report; its English text is automatically translated. Populix detail is gated and no detailed percentages are used. Company-reported awards are not financial performance evidence. Portfolio and competitive sources S13–S23 were added on 14 October 2026. See [competitive brief](docs/competitive-brief.md) for the method and limits, including counter-evidence from Playtopia. See the site’s evidence drawer for clickable links.
 
 See [asset manifest](docs/asset-manifest.md). Twelve original horizontal illustrations were generated with the built-in image_gen tool and visually inspected. Editorial gouache images, survey/offer/access/workflow infographics and distinctive scene thumbnails support each chapter. All human/event imagery is clearly labelled conceptual. No generated photograph is presented as an actual SuperPark visitor, facility, testimonial, employee or post.
 
@@ -80,7 +81,11 @@ The session requested deployment to https://github.com/andrewbayu/dreamusgroup. 
 
 ## Verification and remaining inputs
 
-Feedback revision, 14 October 2026: shorter copy across the twelve chapters, menus, tabs, storyboards and calculator; a new opening hook; explicit chapter transitions; three customer needs that lead into the three actions; and the supplied DreamUs logo. Chapter 8’s infographic uses the simpler ACCESS label. The three-action slide has a compact desktop presentation layout. Source dates and model equations remain unchanged.
+Portfolio revision, 14 October 2026: new slides 2–3 map Pororo Park, Tayo Station and SuperPark, then explain the first adult/corporate growth test. Previous slides shift by two. The comparison follows a buyer → offer → alternatives → implication template; it makes no relative market-density or saturation claim. All chapter counters and source totals are dynamic, and action links resolve by stable chapter ID.
+
+Portfolio QA: production build and 12 economics tests passed. Browser checks confirmed all 14 presentation states, one visible chapter per state, the disabled final Next button, the chapter menu, action-to-activation link, corporate storyboard and filtered competitor sources. Desktop 1280×800 and mobile 360×800 were inspected. Mobile page width stayed at 345px within the 360px viewport (15px scrollbar); only the comparison table scrolls sideways. Arrow keys scroll its focused region without changing the presentation chapter.
+
+Feedback revision, 14 October 2026: shorter copy across the twelve chapters, menus, tabs, storyboards and calculator; a new opening hook; explicit chapter transitions; three customer needs that lead into the three actions; and the supplied DreamUs logo. The access infographic uses the simpler ACCESS label. The three-action slide has a compact desktop presentation layout. Source dates and model equations remain unchanged.
 
 Revision QA: production build and 12 economics tests passed. Inspected desktop 1280×800 and mobile 360×800; opening/logo, chapter 5 transition, three-action slide, action-to-pass navigation, high-use/default/reset/annual outputs, chapter menu and two updated storyboards. Mobile content width stayed within the viewport.
 

@@ -1,0 +1,42 @@
+.portfolio-map{display:grid;gap:20px}
+.portfolio-brand{padding:26px;border:1px solid var(--line);border-top:4px solid #e4ae36;background:white;border-radius:4px;display:flex;flex-direction:column}
+.portfolio-brand.tayo{border-top-color:#297bbd}.portfolio-brand.superpark{border-color:#bcc8f4;border-top-color:var(--blue);background:#eef1ff}
+.portfolio-brand-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;min-height:34px}
+.portfolio-brand-top>.eyebrow{font-size:9px;color:var(--muted)}
+.portfolio-focus{color:var(--blue);font-size:8px;font-weight:600;letter-spacing:.09em}
+.portfolio-brand h3{font-size:36px;letter-spacing:-.045em;margin:25px 0 9px}
+.portfolio-audience{font-size:17px;font-weight:500}
+.portfolio-offer{font-size:15px;color:var(--muted);margin-top:20px;flex:1}
+.portfolio-offer+.badge{margin-top:16px}
+.portfolio-role{border-top:1px solid var(--line);margin:26px 0 20px;padding-top:20px}
+.portfolio-role>.eyebrow{color:var(--muted);font-size:9px}
+.portfolio-role p{font-size:15px;margin-top:8px}
+.portfolio-brand .source-links{margin-top:6px}.portfolio-brand .source-links button{font-size:11px}
+.portfolio-takeaway{display:flex;gap:18px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line);padding:25px 0;margin-top:5px}
+.portfolio-takeaway>svg{color:var(--blue)}.portfolio-takeaway>p{font-size:20px;line-height:1.5;max-width:780px}.portfolio-takeaway>.badge{margin-left:auto}
+.competition-header{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);padding:18px 0}
+.competition-header>.eyebrow{color:var(--blue);font-size:10px}.competition-header>.fine{font-size:11px}
+.competition-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:4px;background:white}
+.competition-table{font-size:14px;min-width:640px}.competition-table caption{padding:18px 20px 0;font-size:13px;color:var(--muted);font-weight:400}
+.competition-table thead{background:#eef1f5}.competition-table th,.competition-table td{padding:20px;vertical-align:top;line-height:1.55}
+.competition-table thead th{font-size:11px;color:var(--muted)}
+.competition-table th[scope=row]{width:23%;font-weight:400;color:var(--ink)}.competition-table td:nth-child(2){width:45%}
+.competition-table strong{display:block;font-size:15px;font-weight:500}.competition-table th>span{display:block;font-size:12px;color:var(--blue);margin-top:8px}.competition-table td>p{font-size:12px;color:var(--muted);margin-top:8px}
+.competition-table .source-links{margin-top:4px;gap:1px}.competition-table .source-links button{font-size:10px;min-height:36px;padding:6px 4px}.competition-table .source-links>svg{width:12px}
+.priority-reasons{display:grid;gap:22px;margin-top:30px}.priority-reasons>article{border-top:2px solid var(--blue);padding-top:18px}
+.priority-reasons .eyebrow{font-size:9px;color:var(--muted)}.priority-reasons h3{font-size:25px;margin:14px 0 10px}.priority-reasons p{font-size:14px;color:var(--muted);margin-bottom:13px}.priority-reasons .source-links{margin-top:0;font-size:11px}.priority-reasons .source-links button{font-size:11px}
+.competition-limit{font-size:13px;line-height:1.6;color:var(--muted);border-left:3px solid var(--orange);padding-left:16px;margin-top:26px;max-width:1000px}
+.priority-analysis{display:grid;gap:30px;align-items:start}
+.priority-analysis>*{min-width:0}
+.competition-table-wrap{width:100%;max-width:100%;min-width:0}
+.priority-analysis .priority-reasons{margin-top:0}
+.priority-analysis .competition-header{border-top:0;padding-top:0}
+.table-hint{font-size:12px;color:var(--muted);margin-bottom:12px}
+@media(min-width:960px){.table-hint{display:none}}
+@media(max-width:959px){.competition-table .source-links button{min-height:44px}}
+.presentation[data-active=portfolio] #portfolio,.presentation[data-active=priority] #priority{display:block}
+@media(min-width:960px){.portfolio-map{grid-template-columns:repeat(3,1fr);gap:22px}.priority-reasons{grid-template-columns:repeat(3,1fr);gap:32px}.presentation #portfolio,.presentation #priority{padding-top:26px}.presentation #portfolio .chapter-kicker,.presentation #priority .chapter-kicker{margin-bottom:18px}.presentation #portfolio .section-heading,.presentation #priority .section-heading{margin-bottom:24px}.presentation #portfolio .section-heading h2,.presentation #priority .section-heading h2{font-size:38px}.presentation #portfolio .lead,.presentation #priority .lead{font-size:16px;margin-top:14px}.presentation .portfolio-brand{padding:20px}.presentation .portfolio-brand h3{font-size:30px;margin-top:18px}.presentation .portfolio-brand p{font-size:14px}.presentation .portfolio-role{margin:20px 0 16px;padding-top:16px}.presentation .portfolio-takeaway{padding:20px 0}.presentation .portfolio-takeaway p{font-size:17px}.presentation #priority .competition-table th,.presentation #priority .competition-table td{padding:14px 16px}.presentation #priority .priority-reasons h3{font-size:22px}.presentation #priority .priority-reasons{margin-top:24px}.presentation #portfolio .story-bridge,.presentation #priority .story-bridge{margin-top:24px}}
+@media print{.portfolio-map,.priority-reasons{grid-template-columns:repeat(3,1fr);gap:4mm}.portfolio-brand{padding:4mm;break-inside:avoid}.portfolio-brand h3{font-size:18pt}.portfolio-brand p{font-size:9pt}.portfolio-role{margin:3mm 0;padding-top:3mm}.portfolio-takeaway{padding:3mm 0}.portfolio-takeaway p{font-size:11pt}.competition-table{min-width:0;font-size:9pt}.competition-table th,.competition-table td{padding:3mm}.competition-table strong{font-size:10pt}.competition-table td>p,.competition-table th>span{font-size:8pt}.competition-table .source-links button{font-size:8pt;min-height:0}.competition-limit{font-size:9pt}.priority-reasons h3{font-size:13pt}.priority-reasons p{font-size:9pt}.competition-header>.fine{font-size:8pt}}
+@media(min-width:960px){.priority-analysis{grid-template-columns:250px minmax(0,1fr);gap:32px}.priority-analysis .priority-reasons{grid-template-columns:1fr;gap:20px}.priority-analysis .priority-reasons article{padding-top:14px}.priority-analysis .priority-reasons h3{font-size:23px;margin:9px 0}.priority-analysis .priority-reasons p{font-size:13px;margin-bottom:9px}.priority-analysis .competition-table th,.priority-analysis .competition-table td{padding:16px}.priority-analysis .competition-table strong{font-size:14px}.priority-analysis .competition-table{min-width:0}.presentation #priority .priority-analysis .priority-reasons{margin-top:0}.presentation #priority .priority-reasons .source-links{display:none}.presentation #priority .competition-table caption{padding:13px 16px 0;margin-bottom:10px}.presentation #priority .competition-table th,.presentation #priority .competition-table td{padding:14px}.presentation #priority .competition-header{padding-bottom:14px}.presentation #priority .competition-limit{margin-top:22px;font-size:12px}.presentation #portfolio .portfolio-role{margin:16px 0;padding-top:16px}.presentation #portfolio .portfolio-brand .source-links{margin-top:0}}
+@media print{.priority-analysis{display:block}.priority-analysis .priority-reasons{grid-template-columns:repeat(3,1fr);margin-bottom:5mm}.priority-analysis .competition-table{min-width:0}}
+@media(min-width:960px){.presentation #priority .priority-reasons{gap:16px}.presentation #priority .priority-reasons>article{padding-top:12px}.presentation #priority .priority-reasons .eyebrow{display:none}.presentation #priority .priority-reasons h3{font-size:21px;margin:0 0 10px}.presentation #priority .priority-reasons p{line-height:1.5}.presentation #priority .priority-reasons .badge{font-size:9px}}

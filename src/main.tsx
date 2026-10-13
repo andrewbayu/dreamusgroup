@@ -9,4 +9,5 @@ import '@fontsource/manrope/latin-700.css';
 import App from './App';
 import './styles/main.css';
 import './styles/visuals.css';
+import './styles/portfolio.css';
 createRoot(document.getElementById('root')!).render(<StrictMode><App /></StrictMode>);
