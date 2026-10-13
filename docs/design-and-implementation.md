@@ -8,6 +8,8 @@ Swiss editorial direction: quiet off-white canvas, large Manrope headlines, DM S
 
 ## Architecture
 
+The feedback revision uses shorter English copy. The opening is “From ‘let’s try it’ to ‘let’s go again’.” The story moves from shared play to customer habits, group outings and a clear offer. Chapter 5 draws three needs from this story: easy to choose, worth repeating and easy to share. Chapter 6 answers with group experiences, return passes and TikTok. Each action then has its own chapter before the test plan, roles and next step. Short transition lines connect the chapters. The supplied DreamUs logo replaces the proposal mark without alteration.
+
 React, TypeScript and Vite; client-only static build. Typed sources and public facts are separated from hypotheses and model defaults. Reusable tabs, native modal dialogs, storyboards and a pure economics function keep interactive logic local. Hash navigation supports reading and presentation modes. Model edge cases have independent fixture tests. No API, visitor storage, tracking, authentication, payments or confidential preparation notes.
 
 ## Completion sequence

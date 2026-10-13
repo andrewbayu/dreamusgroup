@@ -16,7 +16,7 @@ export const sources: Source[] = [
 ].map(source => ({ ...source, researchCheckedAt: '2026-10-13' })) as Source[];
 
 export const facts: { title: string; body: string; status: EvidenceStatus; sourceIds: string[]; metric?: number; sampleContext?: string }[] = [
-  { title: 'Experiences matter', body: 'of Indonesian respondents consider experiential expenditure essential.', status: 'Verified public fact', sourceIds: ['S7'], metric: 76, sampleContext: 'UOB ACSS 2025 · Regional n=5,000 across five countries; figure is Indonesia-specific.' },
+  { title: 'Experiences matter', body: 'of Indonesian respondents say spending on experiences is essential.', status: 'Verified public fact', sourceIds: ['S7'], metric: 76, sampleContext: 'UOB ACSS 2025 · Regional n=5,000 across five countries; figure is Indonesia-specific.' },
   { title: 'Time with friends', body: 'of surveyed Indonesian Gen Z hang out with friends in their free time.', status: 'Verified public fact', sourceIds: ['S8'], metric: 38, sampleContext: 'Jakpat · December 2025 · Online n=1,158, ages 17–28 · Reported by Databoks.' },
-  { title: 'Movement has a place', body: 'of the same surveyed Gen Z exercise during their free time.', status: 'Verified public fact', sourceIds: ['S8'], metric: 32, sampleContext: 'Jakpat · December 2025 · Online n=1,158, ages 17–28 · Multiple-response activities.' },
+  { title: 'Time to exercise', body: 'of the same surveyed Gen Z exercise during their free time.', status: 'Verified public fact', sourceIds: ['S8'], metric: 32, sampleContext: 'Jakpat · December 2025 · Online n=1,158, ages 17–28 · Multiple-response activities.' },
 ];

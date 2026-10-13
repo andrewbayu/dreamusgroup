@@ -13,7 +13,7 @@ The files in `public/assets/visuals/` are responsive WebP deliveries at 640, 120
 | 05 | [benchmark-offer](../public/assets/visuals/benchmark-offer-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
 | 06 | [moves-commercial](../public/assets/visuals/moves-commercial-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
 | 07 | [activation-play-sessions](../public/assets/visuals/activation-play-sessions-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
-| 08 | [subscription-access](../public/assets/visuals/subscription-access-1672.webp) | Built-in image_gen; requested by user | Duration / entitlement; product concepts, not available offers |
+| 08 | [subscription-access-v2](../public/assets/visuals/subscription-access-v2-1672.webp) | Built-in image_gen; revised for shorter copy | Duration / access; example plans, not approved offers |
 | 09 | [tiktok-storyboards](../public/assets/visuals/tiktok-storyboards-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
 | 10 | [plan-workflow](../public/assets/visuals/plan-workflow-1672.webp) | Built-in image_gen; requested by user | Work sequence; no fixed dates |
 | 11 | [mandate-collaboration](../public/assets/visuals/mandate-collaboration-1672.webp) | Built-in image_gen; requested by user | Collaboration concept; not actual team or Aditya portrait |
@@ -32,9 +32,13 @@ The files in `public/assets/visuals/` are responsive WebP deliveries at 640, 120
 
 | Asset | Origin / status |
 | --- | --- |
-| Header mark and favicon | Original proposal mark, not an official brand logo |
+| Header logo and favicon | User-supplied dreamus-logo.webp, 600 × 163, transparent. Copied unchanged; original colours and proportions preserved. |
 | Interface icons | https://lucide.dev/ — ISC-licensed package |
 | DM Sans and Manrope | Fontsource; SIL Open Font Licence, self-hosted |
 | Aditya portrait | Not supplied; initials mark retained |
 
 Before adding authentic photos, record origin URL, reuse permission, country/venue, approval owner, alt text, caption, dimensions and responsive variants. Singapore photos must be labelled as international references.
+
+## Copy refresh
+
+Chapter 8 now uses subscription-access-v2 at 640, 1200 and 1672 pixels wide (original 1672 × 941). The precise image edit replaces “ENTITLEMENT” with “ACCESS” and simplifies the approval note. The previous asset remains preserved. The full edit prompt is in visual-edit-prompt.json.

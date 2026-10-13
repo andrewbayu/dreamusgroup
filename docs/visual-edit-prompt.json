@@ -1,0 +1,7 @@
+{
+  "chapter": 8,
+  "name": "subscription-access-v2",
+  "generator": "Built-in image_gen",
+  "prompt": "Use case: text-localization. Edit this supplied subscription infographic. Change ONLY the large heading 'ENTITLEMENT' to the simpler exact word 'ACCESS'. Change ONLY the small bottom sentence 'Product concepts. Subject to pilot approval.' to exact 'Example plans. Not approved offers.' Keep DURATION, Monthly, Annual, Credits, Unlimited eligible access and all other text unchanged. Preserve every illustrated object, its arrangement, the two-row structure, all colors, the gouache/paper texture, typography family, linework, cropping and original horizontal composition. Use the same uppercase font style and size for ACCESS as the original heading, aligned to the same left edge. Do not add text, logos, objects or claims. Keep the background opaque off-white. This is a precise copy simplification, not a redesign.",
+  "change": "ACCESS label and a shorter approval note. The original remains preserved."
+}

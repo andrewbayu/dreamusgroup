@@ -80,6 +80,10 @@ The session requested deployment to https://github.com/andrewbayu/dreamusgroup. 
 
 ## Verification and remaining inputs
 
+Feedback revision, 14 October 2026: shorter copy across the twelve chapters, menus, tabs, storyboards and calculator; a new opening hook; explicit chapter transitions; three customer needs that lead into the three actions; and the supplied DreamUs logo. Chapter 8’s infographic uses the simpler ACCESS label. The three-action slide has a compact desktop presentation layout. Source dates and model equations remain unchanged.
+
+Revision QA: production build and 12 economics tests passed. Inspected desktop 1280×800 and mobile 360×800; opening/logo, chapter 5 transition, three-action slide, action-to-pass navigation, high-use/default/reset/annual outputs, chapter menu and two updated storyboards. Mobile content width stayed within the viewport.
+
 - Production TypeScript/Vite build passed.
 - Twelve independent economics tests passed, including demo values, high usage, zero cost/customers/visits, fractional averages, invalid inputs, fee bounds, numeric overflow and annual separation.
 - Production browser QA: desktop 1280×720 and mobile 360×800; all persona and activation tabs, all eight storyboards, all four plan stages, source drawer dismissal/focus return, calculator defaults/high use/zero values/invalid input/reset/annual separation, chapter selection, presentation keyboard navigation, input protection and clean exit.
