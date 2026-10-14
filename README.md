@@ -1,6 +1,6 @@
 # SuperPark Indonesia — A Reason to Return
 
-Interactive executive proposal for DreamUs leadership, prepared by Aditya Indra Bayu. Sixteen English chapters connect public research, customer occasions, proposed activation, access subscriptions and TikTok demand generation. Client-only React + TypeScript + Vite; no tracking, credentials, visitor storage or payments.
+Interactive executive proposal for DreamUs leadership, prepared by Aditya Indra Bayu. Seventeen English chapters connect public research and audit findings to three umbrella actions: adult brand campaign, repeat-value product/pricing and digital conversion. Client-only React + TypeScript + Vite; no tracking, credentials, visitor storage or payments.
 
 ## Run locally
 
@@ -102,3 +102,7 @@ Revision QA: production build and 12 economics tests passed. Inspected desktop 1
 - Browser Print action was exercised: details expanded before printing and their previous state was restored afterward. The in-app browser did not expose a PDF print preview, so exact page-break and PDF-export QA remains unverified. The stylesheet reveals sources, keeps all chapters in order and excludes controls/notes.
 
 Commercial readiness still requires approved photography/proof assets, full current catalogue, first-party ticket economics and frequency, venue capacity/safety constraints, system capability and leadership approval of any actual pilot. Nothing on this site is a consumer checkout or an approved launch offer.
+
+Campaign refresh, 14 October 2026: Make Room for Play / SuperPark is for grown-ups, too. Chapter 11 proposes a hero film, bio and partnerships; chapter 12 extends it through Clock Out. Play On. UGC; chapter 13 designs subscription-first pricing and corporate offers; chapter 14 includes a corporate landing-page preview with a local-only enquiry form. See [campaign strategy](docs/campaign-strategy.md). The proposal is published here; DreamUs-owned websites and profiles are not changed.
+
+Campaign refresh QA: production build and all 12 economics tests passed. Browser checks verified all 17 presentation states and the final navigation boundary, mobile 360×800 campaign/UGC/corporate layouts, loaded preview imagery, the corporate prototype’s local form validation/status, unchanged chapter hash and Escape/focus restoration. No captured console errors or warnings.

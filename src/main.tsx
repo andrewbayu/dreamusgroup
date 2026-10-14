@@ -11,4 +11,5 @@ import './styles/main.css';
 import './styles/visuals.css';
 import './styles/portfolio.css';
 import './styles/digital-audit.css';
+import './styles/campaign.css';
 createRoot(document.getElementById('root')!).render(<StrictMode><App /></StrictMode>);

@@ -1,0 +1,19 @@
+import { useState } from 'react';
+import { EditorialImage } from './EditorialVisual';
+
+export function CorporatePreview() {
+  const [brief, setBrief] = useState('');
+  return <div className="corporate-preview">
+    <p className="model-notice">Proposed landing page · Preview only. No enquiry is sent and no booking is made.</p>
+    <div className="corporate-hero"><div><span className="eyebrow">SUPERPARK / CORPORATE PLAY</span><h3>Less meeting.<br/>More playing together.</h3><p>Your team deserves time beyond the desk. Make room for a hosted SuperPark outing—built around your group, venue and schedule.</p><button className="primary-button" onClick={() => document.getElementById("quote-preview")?.scrollIntoView({ behavior: "smooth", block: "start" })}>Plan your team outing</button></div><figure><EditorialImage index={6} scene={2} alt="Concept illustration of colleagues playing a hosted team challenge." sizes="(min-width: 960px) 440px, 80vw"/><figcaption className="fine">Conceptual AI illustration · not an actual team visit</figcaption></figure></div>
+    <div className="campaign-cards"><article><span className="eyebrow">FOR THE TEAM</span><h4>Grown-ups get to play, too.</h4><p>Trade the usual office gathering for shared games, new attempts and real reactions.</p></article><article><span className="eyebrow">FOR THE ORGANISER</span><h4>One clear plan.</h4><p>Get programme guidance, a proposed agenda and a quote before you commit.</p></article></div>
+    <h4>Choose the programme with our team.</h4><p>SuperPark already lists SuperTeam, SuperSquad and SuperBuilder. The sales team should explain each option, suitable group sizes and venue availability here.</p>
+    <ol className="campaign-steps"><li><strong>Tell us about your outing.</strong><p>Share your team size, preferred date, venue and what you need.</p></li><li><strong>Review your agenda and quote.</strong><p>Confirm activities, host, session length, inclusions, total price and payment terms.</p></li><li><strong>Arrive ready to play.</strong><p>Receive arrival details, clothing advice, activity rules and the organiser’s contact.</p></li></ol>
+    <details><summary>Before you book</summary><p>Publish confirmed minimum and maximum group sizes, available venues, safety and accessibility information, age or height rules, cancellation terms and invoice details. List food, room use and other extras only when confirmed.</p><p>Add approved adult team photos and verified organiser feedback. Set a response time that the sales team can meet. Keep enquiry help visible when date-based products are unavailable.</p></details>
+    <form id="quote-preview" className="quote-preview" onSubmit={e => { e.preventDefault(); const data = new FormData(e.currentTarget); setBrief('Preview brief ready: ' + data.get('company') + ' · ' + data.get('size') + ' people · ' + data.get('venue') + '. Nothing has been sent.'); }}>
+      <h4>Let’s make room for your team.</h4><p>Tell us the basics. A proposed enquiry flow for HR and office organisers.</p>
+      <div className="quote-fields"><label>Company<input name="company" required autoComplete="organization"/></label><label>Work email<input name="email" type="email" required autoComplete="email"/></label><label>Team size<input name="size" type="number" min="1" required/></label><label>Preferred venue<select name="venue"><option>Pondok Indah Mall</option><option>Puri Indah Mall</option><option>Help me choose</option></select></label><label>Preferred date<input name="date" type="date"/></label><label>What do you have in mind?<textarea name="needs" rows={2}/></label></div>
+      <p className="fine">Live version: add a privacy notice and consent wording, connect to sales, and confirm receipt. This prototype keeps the form on this page.</p><button type="submit" className="primary-button">Preview enquiry brief</button>{brief && <p className="quote-result" role="status">{brief}</p>}
+    </form>
+  </div>;
+}

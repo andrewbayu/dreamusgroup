@@ -4,7 +4,7 @@ The proposal includes twelve AI-generated editorial illustrations, one original 
 
 The files in `public/assets/visuals/` are responsive WebP deliveries at 640, 1200 and 1672 pixels wide. Original PNGs are preserved in the workspace's `dreamusgroup-visual-originals/` directory. Full prompts are in [visual-prompts.json](visual-prompts.json). All twelve originals were visually inspected after generation.
 
-The two portfolio/competition pages use native HTML layouts so brand roles, source links and the table stay readable and editable. Chapter numbers below reflect the expanded 16-page deck. Prompt records retain the original 12-page numbering as generation history.
+The two portfolio/competition pages use native HTML layouts so brand roles, source links and the table stay readable and editable. Chapter numbers below reflect the expanded 17-page deck. Prompt records retain the original 12-page numbering as generation history.
 
 | Chapter | Asset | Origin / status | Content and caption status |
 | --- | --- | --- | --- |
@@ -15,11 +15,11 @@ The two portfolio/competition pages use native HTML layouts so brand roles, sour
 | 07 | [benchmark-offer](../public/assets/visuals/benchmark-offer-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
 | 10 | [moves-commercial](../public/assets/visuals/moves-commercial-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
 | 11 | [activation-play-sessions](../public/assets/visuals/activation-play-sessions-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
-| 12 | [subscription-access-v2](../public/assets/visuals/subscription-access-v2-1672.webp) | Built-in image_gen; revised for shorter copy | Duration / access; example plans, not approved offers |
-| 13 | [tiktok-storyboards](../public/assets/visuals/tiktok-storyboards-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
-| 14 | [plan-workflow](../public/assets/visuals/plan-workflow-1672.webp) | Built-in image_gen; requested by user | Work sequence; no fixed dates |
-| 15 | [mandate-collaboration](../public/assets/visuals/mandate-collaboration-1672.webp) | Built-in image_gen; requested by user | Collaboration concept; not actual team or Aditya portrait |
-| 16 | [closing-first-pilot](../public/assets/visuals/closing-first-pilot-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 13 | [subscription-access-v2](../public/assets/visuals/subscription-access-v2-1672.webp) | Built-in image_gen; revised for shorter copy | Duration / access; example plans, not approved offers |
+| 12 | [tiktok-storyboards](../public/assets/visuals/tiktok-storyboards-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
+| 15 | [plan-workflow](../public/assets/visuals/plan-workflow-1672.webp) | Built-in image_gen; requested by user | Work sequence; no fixed dates |
+| 16 | [mandate-collaboration](../public/assets/visuals/mandate-collaboration-1672.webp) | Built-in image_gen; requested by user | Collaboration concept; not actual team or Aditya portrait |
+| 17 | [closing-first-pilot](../public/assets/visuals/closing-first-pilot-1672.webp) | Built-in image_gen; requested by user | Conceptual AI illustration; not venue or visitor evidence |
 
 ## Frontend handling
 
@@ -43,4 +43,6 @@ Before adding authentic photos, record origin URL, reuse permission, country/ven
 
 ## Copy refresh
 
-Chapter 12 now uses subscription-access-v2 at 640, 1200 and 1672 pixels wide (original 1672 × 941). The precise image edit replaces “ENTITLEMENT” with “ACCESS” and simplifies the approval note. The previous asset remains preserved. The full edit prompt is in visual-edit-prompt.json.
+Chapter 13 now uses subscription-access-v2 at 640, 1200 and 1672 pixels wide (original 1672 × 941). The precise image edit replaces “ENTITLEMENT” with “ACCESS” and simplifies the approval note. The previous asset remains preserved. The full edit prompt is in visual-edit-prompt.json.
+
+Campaign refresh: hero messaging and corporate page use native HTML. The corporate preview reuses the clearly labelled conceptual team illustration from chapter 11. No new documentary photos or testimonials were fabricated.

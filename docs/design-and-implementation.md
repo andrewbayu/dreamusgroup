@@ -8,7 +8,7 @@ Swiss editorial direction: quiet off-white canvas, large Manrope headlines, DM S
 
 ## Architecture
 
-The feedback revision uses shorter English copy. The opening is “From ‘let’s try it’ to ‘let’s go again’.” The story first maps the three brands and justifies the adult/corporate priority, then moves from shared play to customer habits, group outings and a clear offer. Chapter 7 draws three needs from this story: easy to choose, worth repeating and easy to share. Chapter 10 answers with group experiences, return passes and TikTok. Each action then has its own chapter before the test plan, roles and next step. Chapters 8–9 now audit Meta messaging and the booking journey before the three actions. Snapshot counts stay separate from performance, and sampled corporate catalogue states stay separate from WhatsApp sales. Short transition lines connect the chapters. The supplied DreamUs logo replaces the proposal mark without alteration.
+The current opening is “Work fills the week. Make room for play.” The story maps the three brands and justifies SuperPark first, then moves from shared play and customer habits to offers and the digital audit. Three umbrella actions follow: brand campaign, product/pricing and digital conversion. The hero theme “Make Room for Play” and message “SuperPark is for grown-ups, too” connect the film, proposed bio, partnerships and Clock Out. Play On. UGC series. Subscription-first pricing follows; a corporate landing-page prototype completes the journey before the test plan, roles and next step. All 17 chapters preserve the difference between observed facts and proposed strategy. The supplied DreamUs logo remains unchanged.
 
 React, TypeScript and Vite; client-only static build. Typed sources and public facts are separated from hypotheses and model defaults. Reusable tabs, native modal dialogs, storyboards and a pure economics function keep interactive logic local. Hash navigation supports reading and presentation modes. Model edge cases have independent fixture tests. No API, visitor storage, tracking, authentication, payments or confidential preparation notes.
 
@@ -20,3 +20,5 @@ React, TypeScript and Vite; client-only static build. Typed sources and public f
 4. Verify production build, economic edge cases and browser interactions at desktop/mobile widths.
 5. Add assets, methodology, QA documentation and GitHub Pages build/test/deploy workflow.
 6. Commit and push without force; verify remote commit, deployment job and published website.
+
+Corporate preview: native modal dialog, local form validation and status feedback; no external submission, storage, tracking or payment. The CTA scrolls within the preview without changing the presentation hash.
