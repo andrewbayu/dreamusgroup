@@ -22,3 +22,5 @@ React, TypeScript and Vite; client-only static build. Typed sources and public f
 6. Commit and push without force; verify remote commit, deployment job and published website.
 
 Corporate preview: native modal dialog, local form validation and status feedback; no external submission, storage, tracking or payment. The CTA scrolls within the preview without changing the presentation hash.
+
+Hiring-positioning refresh: chapter 16 now presents eight icon capability cards: growth hacking, funnel marketing, brand-to-performance, offer/pricing, paid acquisition, content/UGC, retention/lifecycle and analytics/experimentation. These are proposed service capabilities drawn from the user-requested positioning and existing growth/funnel/reporting skillset; no credentials, client results or revenue guarantees are added. Chapter 17 concludes with the advantage of connecting existing creativity to measurable growth, replacing the prior pilot checklist. Stable hashes `mandate` and `closing` preserve links.

@@ -48,3 +48,5 @@ Chapter 13 now uses subscription-access-v2 at 640, 1200 and 1672 pixels wide (or
 Campaign refresh: hero messaging and corporate page use native HTML. The corporate preview reuses the clearly labelled conceptual team illustration from chapter 11. No new documentary photos or testimonials were fabricated.
 
 Corporate Search addition: user-supplied Google screenshot copied unchanged to `public/assets/google-search-gathering-kantor-jakarta.png` (1140 × 807). Original source: user attachment, supplied 14 October 2026. Chapter 14 displays it with a full-size link, descriptive alt text, S30 attribution and explicit limits. It is a search-results snapshot, not keyword-volume evidence.
+
+Slides 16–17 hiring refresh: the former collaboration and closing illustrations remain preserved in the asset library but are no longer rendered in those slides. Slide 16 uses native Lucide icons and capability cards; slide 17 uses native typography and a connected growth path.

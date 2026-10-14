@@ -108,3 +108,5 @@ Campaign refresh, 14 October 2026: Make Room for Play / SuperPark is for grown-u
 Campaign refresh QA: production build and all 12 economics tests passed. Browser checks verified all 17 presentation states and the final navigation boundary, mobile 360×800 campaign/UGC/corporate layouts, loaded preview imagery, the corporate prototype’s local form validation/status, unchanged chapter hash and Escape/focus restoration. No captured console errors or warnings.
 
 Corporate Search update: chapter 14 now includes the proposed Google Search Ads test, Bahasa Indonesia keywords, negative-keyword candidates, Keyword Planner validation gate, ad copy and conversion path. The supplied search screenshot is preserved and attributed as S30; the register now has 30 sources. No volume, CPC or uplift is invented.
+
+Hiring refresh: slides 16–17 now explain eight growth capabilities unlocked by hiring Aditya and conclude with his proposed advantage: connecting brand, offers and funnels to measurable performance. No performance figures or credentials were invented.

@@ -14,8 +14,8 @@ export const chapters = [
   { id: 'subscription', title: '2. Build a reason to return', stage: 'Three moves' },
   { id: 'digital-campaign', title: '3. Turn interest into bookings', stage: 'Three moves' },
   { id: 'plan', title: 'Test it with the team', stage: 'The plan' },
-  { id: 'mandate', title: 'Who does what', stage: 'The plan' },
-  { id: 'closing', title: 'Choose the first test', stage: 'Next step' },
+  { id: 'mandate', title: 'What hiring me unlocks', stage: 'The plan' },
+  { id: 'closing', title: 'Connect creativity to growth', stage: 'Next step' },
 ];
 
 export const storyBridges = [
@@ -33,8 +33,8 @@ export const storyBridges = [
   'When the first outing feels worth it, the next question is simple: why not come back?',
   'A repeat offer gives the visit value. A clear digital journey makes that value easy to act on.',
   'Now the message, offer and booking route are ready to test together.',
-  'One test needs one lead, with clear owners for the work.',
-  'Make room for one adult audience, one venue and one offer first.',
+  'The plan needs someone who can connect the work. Here is what hiring me brings.',
+  'These capabilities share one purpose: connect the creativity already here to measurable growth.',
   '',
 ];
 

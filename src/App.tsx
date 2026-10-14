@@ -1,5 +1,5 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { ArrowRight, ArrowUpRight, ArrowLeft, BookOpen, Users, Ticket, CalendarDays, Building2, GraduationCap, Play, Menu, Maximize, X, Target, Check, ChevronDown, Layers, ScanLine, CreditCard, BarChart3, Printer } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, ArrowLeft, BookOpen, Users, Ticket, CalendarDays, Building2, GraduationCap, Play, Menu, Maximize, X, Target, Check, ChevronDown, Layers, ScanLine, CreditCard, BarChart3, Printer, Zap, Filter, Link2, Video, Repeat2 } from 'lucide-react';
 import { chapters, personas, activations, videos, stages, alignment, storyBridges, moves, type Storyboard } from './content/proposal';
 import { portfolioBrands, competitiveRows, priorityReasons } from './content/portfolio';
 import { adThemes, adFindings, bookingRoutes, auditActions } from './content/digitalAudit';
@@ -212,16 +212,26 @@ export default function App() {
         <details><summary>What to agree before starting</summary><ol className="alignment-list">{alignment.map(item => <li key={item}>{item}</li>)}</ol></details>
       </Chapter>
 
-      <Chapter index={15} title="One lead. Clear roles." intro="Aditya leads the plan. DreamUs teams help shape and deliver it.">
-        <div className="mandate-layout"><div className="mandate-statement"><EditorialFigure index={10} className="mandate-illustration"/><span className="eyebrow">ADITYA’S PROPOSED ROLE</span><h3>Connect the customer,<br/><span>the offer and the team.</span></h3><p>Choose priorities. Build offers with finance and operations. Guide content and events. Read the results and recommend the next move.</p><a className="text-button" href="https://www.adityabayu.com/" target="_blank" rel="noopener noreferrer">About Aditya <ArrowUpRight size={16}/></a></div><div className="ownership-list"><div><h4>DreamUs leadership</h4><p>Approves the plan, prices, budget, terms and major changes.</p></div><div><h4>Venue operations</h4><p>Runs safe sessions, staffing, activities and check-in.</p></div><div><h4>Finance</h4><p>Checks costs, tax, payments and when revenue is earned.</p></div><div><h4>Staff & agreed agency support</h4><p>Make the content and run the campaign with existing teams.</p></div></div></div>
-        <div className="mandate-options"><div><span className="eyebrow">OPTION 01</span><h3>Fractional CMO</h3><p>Lead the plan with the current team and vendors.</p></div><div><span className="eyebrow">OPTION 02</span><h3>Fractional CMO + agency support</h3><p>Add agreed content and campaign resources.</p></div></div>
-        <p className="fine">Agree scope, resources and fees separately. Start with what the first test needs.</p>
+      <Chapter index={15} title="What hiring me unlocks." intro="One lead connecting brand, offer and conversion—from the first impression to the next visit.">
+        <div className="capability-grid">{[
+          { Icon: Zap, title: 'Growth Hacking', benefit: 'Find growth opportunities. Test fast. Scale what works.' },
+          { Icon: Filter, title: 'Funnel Marketing', benefit: 'Build the journey from attention to booking and return.' },
+          { Icon: Link2, title: 'Brand-to-Performance', benefit: 'Connect the brand promise to offers, campaigns and sales.' },
+          { Icon: Ticket, title: 'Offer & Pricing Strategy', benefit: 'Turn customer needs into clear packages and repeat value.' },
+          { Icon: Target, title: 'Paid Media & Acquisition', benefit: 'Match audience, message and channel to buying intent.' },
+          { Icon: Video, title: 'Content & UGC Strategy', benefit: 'Give hero content and creator stories one clear message.' },
+          { Icon: Repeat2, title: 'Retention & Lifecycle', benefit: 'Build reasons to return, with useful follow-up and offers.' },
+          { Icon: BarChart3, title: 'Analytics & Experimentation', benefit: 'Follow bookings, contribution and repeat use to guide decisions.' },
+        ].map(({ Icon, title, benefit }) => <article className="capability-card" key={title}><Icon size={30} strokeWidth={1.5} aria-hidden="true"/><h3>{title}</h3><p>{benefit}</p></article>)}</div>
+        <div className="capability-takeaway"><span className="eyebrow">THE ADVANTAGE I BRING</span><p>Connect the work. Give every campaign, offer and touchpoint a shared direction—and a way to measure progress.</p><a className="text-button" href="https://www.adityabayu.com/" target="_blank" rel="noopener noreferrer">About Aditya <ArrowUpRight size={16}/></a></div>
       </Chapter>
 
-      <Chapter index={16} title="Make room for the first test." dark>
-        <EditorialFigure index={11} className="closing-illustration"/><p className="closing-copy">Start with professionals or one office team. Give them a clear invitation, an offer worth choosing and a booking journey that delivers. Learn from their first visit—and whether they come back.</p>
-        <div className="closing-decisions">{[{ number: '01', title: 'Choose the group', text: 'Who are we inviting, and why would they come?' }, { number: '02', title: 'Check the offer', text: 'What is included, what does it cost, and can we deliver it?' }, { number: '03', title: 'Agree the test', text: 'Name the owner, resources and next decision.' }].map(item => <div key={item.number}><span>{item.number}</span><h3>{item.title}</h3><p>{item.text}</p></div>)}</div>
-        <a className="primary-button light-button" href="https://www.adityabayu.com/" target="_blank" rel="noopener noreferrer">Talk with Aditya <ArrowUpRight size={18}/></a><div className="closing-footer"><span>Prepared by Aditya Indra Bayu</span><span>DreamUs Group · SuperPark Indonesia · October 2026</span></div>
+      <Chapter index={16} title="You aren’t lacking in creativity." dark>
+        <p className="conclusion-headline">Your next advantage is<br/><span>connecting it to growth.</span></p>
+        <p className="closing-copy">The ideas, activities and campaigns are already there. My edge is connecting brand, offers and funnels to measurable performance—so the story people see matches the experience they choose.</p>
+        <div className="conclusion-path" aria-label="The connected growth journey"><span>Brand earns attention.</span><ArrowRight size={18} aria-hidden="true"/><span>The offer earns the booking.</span><ArrowRight size={18} aria-hidden="true"/><span>The experience earns the return.</span></div>
+        <p className="conclusion-offer">That is what I bring to DreamUs: one connected growth strategy, from the first impression to the next visit.</p>
+        <a className="primary-button light-button" href="https://www.adityabayu.com/" target="_blank" rel="noopener noreferrer">Build that connection with Aditya <ArrowUpRight size={18}/></a><div className="closing-footer"><span>Prepared by Aditya Indra Bayu</span><span>DreamUs Group · SuperPark Indonesia · October 2026</span></div>
       </Chapter>
     </main>
     <footer className="site-footer"><span>SuperPark Indonesia: Make Room for Play</span><button className="text-button" onClick={() => openSources()}><BookOpen size={15}/> Sources</button></footer>
