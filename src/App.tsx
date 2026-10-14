@@ -1,5 +1,5 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { ArrowRight, ArrowUpRight, ArrowLeft, BookOpen, Users, Ticket, CalendarDays, Building2, GraduationCap, Play, Menu, Maximize, X, Target, Check, ChevronDown, Layers, ScanLine, CreditCard, BarChart3, Printer, Zap, Filter, Link2, Video, Repeat2 } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, ArrowLeft, BookOpen, Users, Ticket, CalendarDays, Building2, GraduationCap, Play, Menu, Maximize, X, Target, Check, ChevronDown, Layers, ScanLine, CreditCard, BarChart3, Printer, Zap, Filter, Link2, Code2, Bot } from 'lucide-react';
 import { chapters, personas, activations, videos, stages, alignment, storyBridges, moves, type Storyboard } from './content/proposal';
 import { portfolioBrands, competitiveRows, priorityReasons } from './content/portfolio';
 import { adThemes, adFindings, bookingRoutes, auditActions } from './content/digitalAudit';
@@ -209,23 +209,21 @@ export default function App() {
         <details><summary>What to agree before starting</summary><ol className="alignment-list">{alignment.map(item => <li key={item}>{item}</li>)}</ol></details>
       </Chapter>
 
-      <Chapter index={15} title="What hiring me unlocks." intro="One lead connecting brand, offer and conversion—from the first impression to the next visit.">
+      <Chapter index={15} title="What hiring me unlocks." intro="Strategy, data and technical fluency—connected by one lead.">
         <div className="capability-grid">{[
-          { Icon: Zap, title: 'Growth Hacking', benefit: 'Find growth opportunities. Test fast. Scale what works.' },
-          { Icon: Filter, title: 'Funnel Marketing', benefit: 'Build the journey from attention to booking and return.' },
-          { Icon: Link2, title: 'Brand-to-Performance', benefit: 'Connect the brand promise to offers, campaigns and sales.' },
-          { Icon: Ticket, title: 'Offer & Pricing Strategy', benefit: 'Turn customer needs into clear packages and repeat value.' },
-          { Icon: Target, title: 'Paid Media & Acquisition', benefit: 'Match audience, message and channel to buying intent.' },
-          { Icon: Video, title: 'Content & UGC Strategy', benefit: 'Give hero content and creator stories one clear message.' },
-          { Icon: Repeat2, title: 'Retention & Lifecycle', benefit: 'Build reasons to return, with useful follow-up and offers.' },
-          { Icon: BarChart3, title: 'Analytics & Experimentation', benefit: 'Follow bookings, contribution and repeat use to guide decisions.' },
+          { Icon: Zap, title: 'Growth & Commercial Strategy', benefit: 'Growth hacking, offer design and pricing that give people reasons to choose.' },
+          { Icon: Link2, title: 'Brand-to-Performance', benefit: 'Align positioning, hero content and UGC with commercial goals.' },
+          { Icon: Filter, title: 'Funnel & Performance Marketing', benefit: 'Connect paid acquisition, landing pages and retention to bookings and return visits.' },
+          { Icon: BarChart3, title: 'Data-Driven Growth', benefit: 'Use analytics, measurement and experimentation to guide the next move.' },
+          { Icon: Code2, title: 'Development, IT & Tech Stack', benefit: 'Understand coding, systems and integrations to connect marketing with technical delivery.' },
+          { Icon: Bot, title: 'AI & Automation', benefit: 'Build practical AI workflows for content, research and operations.' },
         ].map(({ Icon, title, benefit }) => <article className="capability-card" key={title}><Icon size={30} strokeWidth={1.5} aria-hidden="true"/><h3>{title}</h3><p>{benefit}</p></article>)}</div>
-        <div className="capability-takeaway"><span className="eyebrow">THE ADVANTAGE I BRING</span><p>Connect the work. Give every campaign, offer and touchpoint a shared direction—and a way to measure progress.</p><a className="text-button" href="https://www.adityabayu.com/" target="_blank" rel="noopener noreferrer">About Aditya <ArrowUpRight size={16}/></a></div>
+        <div className="capability-takeaway"><span className="eyebrow">THE ADVANTAGE I BRING</span><p>Connect strategy with execution. Understand the marketing, read the data, and work with the code, systems and AI that make it happen.</p><a className="text-button" href="https://www.adityabayu.com/" target="_blank" rel="noopener noreferrer">About Aditya <ArrowUpRight size={16}/></a></div>
       </Chapter>
 
       <Chapter index={16} title="You aren’t lacking in creativity." dark>
         <p className="conclusion-headline">Your next advantage is<br/><span>connecting it to growth.</span></p>
-        <p className="closing-copy">The ideas, activities and campaigns are already there. My edge is connecting brand, offers and funnels to measurable performance—so the story people see matches the experience they choose.</p>
+        <p className="closing-copy">The ideas, activities and campaigns are already there. My edge is connecting brand, offers and funnels with data, technology and AI—then measuring what drives bookings and return visits.</p>
         <div className="conclusion-path" aria-label="The connected growth journey"><span>Brand earns attention.</span><ArrowRight size={18} aria-hidden="true"/><span>The offer earns the booking.</span><ArrowRight size={18} aria-hidden="true"/><span>The experience earns the return.</span></div>
         <p className="conclusion-offer">That is what I bring to DreamUs: one connected growth strategy, from the first impression to the next visit.</p>
         <a className="primary-button light-button" href="https://www.adityabayu.com/" target="_blank" rel="noopener noreferrer">Build that connection with Aditya <ArrowUpRight size={18}/></a><div className="closing-footer"><span>Prepared by Aditya Indra Bayu</span><span>DreamUs Group · SuperPark Indonesia · October 2026</span></div>
