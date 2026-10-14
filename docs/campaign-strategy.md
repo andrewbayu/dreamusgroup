@@ -65,3 +65,12 @@ Adult hero/UGC → adult offer → ticket or approved pass. Corporate content/ad
 Before scaling, test mobile forms and sales handoff; validate Meta/Google events, cross-domain attribution and duplicate handling against actual orders. Track landing visits, valid/qualified enquiries, quotes, paid bookings, attendance, contribution and repeat use. Views/shares remain interest signals. No budget, targets or uplift invented without account and sales data.
 
 Sequence: understand audience/venue economics → approve hero/offer/page → launch one venue/audience test → review bookings, costs, feedback and return visits. Leadership owns approval; Aditya coordinates; operations confirms delivery; finance confirms economics; sales owns enquiry follow-up; agreed staff/agency resources produce and run campaigns.
+
+
+## Corporate Google Search Ads test
+
+Added to digital conversion in chapter 14, alongside the corporate page and sales handoff. Start with `paket gathering kantor jakarta`, `tempat gathering kantor jakarta`, `paket outing kantor jakarta`, `tempat outing kantor jakarta` and `tempat acara kantor indoor jakarta`. Exact and phrase match are the proposed starting point, followed by actual search-term review. Test location variants and team-building language later; keep branded searches separate. Exclude irrelevant research, job and supplier queries after checking context.
+
+The supplied Google screenshot is preserved unchanged in public/assets/google-search-gathering-kantor-jakarta.png and registered as S30. It shows the query, outing guides, a team-building provider and related questions. Capture time, location and personalisation are not established. It does not prove high search volume, CPC, ad competition or SuperPark's overall rank.
+
+Validate monthly volume, twelve-month trends and estimated CPC for Jakarta/Jabodetabek in Keyword Planner before budgeting. Launch only after the corporate page, lead qualification and sales handoff work. Measure qualified lead cost, quotes, paid bookings and contribution. Proposed ad: “Gathering Kantor yang Beda? Ajak Tim Main di SuperPark.” CTA: “Minta Penawaran untuk Tim”. No live ad account is changed.

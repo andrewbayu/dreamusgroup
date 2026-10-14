@@ -46,3 +46,5 @@ Before adding authentic photos, record origin URL, reuse permission, country/ven
 Chapter 13 now uses subscription-access-v2 at 640, 1200 and 1672 pixels wide (original 1672 × 941). The precise image edit replaces “ENTITLEMENT” with “ACCESS” and simplifies the approval note. The previous asset remains preserved. The full edit prompt is in visual-edit-prompt.json.
 
 Campaign refresh: hero messaging and corporate page use native HTML. The corporate preview reuses the clearly labelled conceptual team illustration from chapter 11. No new documentary photos or testimonials were fabricated.
+
+Corporate Search addition: user-supplied Google screenshot copied unchanged to `public/assets/google-search-gathering-kantor-jakarta.png` (1140 × 807). Original source: user attachment, supplied 14 October 2026. Chapter 14 displays it with a full-size link, descriptive alt text, S30 attribution and explicit limits. It is a search-results snapshot, not keyword-volume evidence.

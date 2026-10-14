@@ -174,7 +174,8 @@ const digitalAuditSources: Source[] = [
   }
 ].map(source => ({ ...source, researchCheckedAt: '2026-10-14' })) as Source[];
 
-export const sources: Source[] = [...originalSources, ...portfolioSources, ...digitalAuditSources];
+const searchSnapshot: Source = { id: 'S30', title: 'Google results: gathering kantor jakarta', publisher: 'Google Search / user-supplied screenshot', url: 'https://andrewbayu.github.io/dreamusgroup/assets/google-search-gathering-kantor-jakarta.png', researchCheckedAt: '2026-10-14', publicationPeriod: 'Screenshot supplied 14 October 2026; capture time and search settings not established', evidenceType: 'user-snapshot', caveat: 'Visible results include Indo Outing Expo, GO OUTBOUND, Parkia Adventure and related questions. Limited snapshot, not a live ranking audit or Keyword Planner report. No search volume, CPC, ad spend, conversion data or overall SuperPark ranking can be inferred.' };
+export const sources: Source[] = [...originalSources, ...portfolioSources, ...digitalAuditSources, searchSnapshot];
 
 export const facts: { title: string; body: string; status: EvidenceStatus; sourceIds: string[]; metric?: number; sampleContext?: string }[] = [
   { title: 'Experiences matter', body: 'of Indonesian respondents say spending on experiences is essential.', status: 'Verified public fact', sourceIds: ['S7'], metric: 76, sampleContext: 'UOB ACSS 2025 · Regional n=5,000 across five countries; figure is Indonesia-specific.' },
