@@ -50,3 +50,5 @@ Campaign refresh: hero messaging and corporate page use native HTML. The corpora
 Corporate Search addition: user-supplied Google screenshot copied unchanged to `public/assets/google-search-gathering-kantor-jakarta.png` (1140 × 807). Original source: user attachment, supplied 14 October 2026. Chapter 14 displays it with a full-size link, descriptive alt text, S30 attribution and explicit limits. It is a search-results snapshot, not keyword-volume evidence.
 
 Slides 16–17 hiring refresh: the former collaboration and closing illustrations remain preserved in the asset library but are no longer rendered in those slides. Slide 16 uses native Lucide icons and capability cards; slide 17 uses native typography and a connected growth path.
+
+Subscription-led online revision: chapter 13 now uses native HTML example-number cards and a comparison table. The access illustration is preserved in the asset library but no longer rendered on the slide.

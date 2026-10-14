@@ -110,3 +110,5 @@ Campaign refresh QA: production build and all 12 economics tests passed. Browser
 Corporate Search update: chapter 14 now includes the proposed Google Search Ads test, Bahasa Indonesia keywords, negative-keyword candidates, Keyword Planner validation gate, ad copy and conversion path. The supplied search screenshot is preserved and attributed as S30; the register now has 30 sources. No volume, CPC or uplift is invented.
 
 Hiring refresh: slides 16–17 now explain eight growth capabilities unlocked by hiring Aditya and conclude with his proposed advantage: connecting brand, offers and funnels to measurable performance. No performance figures or credentials were invented.
+
+Subscription-led online sales revision: action 2 now leads with monthly subscription access, following the gym/fitness analogy. The on-page calculator and equal-weight product grid were replaced by a static Rp200,000 ticket / Rp600,000 four-visit monthly-pass example, including customer savings, a 100-customer contribution comparison and the existing-repeat-buyer downside. The pure economics library and legacy tests remain available; no calculator is rendered.

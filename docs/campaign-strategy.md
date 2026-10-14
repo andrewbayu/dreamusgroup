@@ -60,7 +60,7 @@ Enquiry fields: company, work email, team size, preferred venue/date and needs. 
 
 ## Digital campaign and measurement
 
-Adult hero/UGC → adult offer → ticket or approved pass. Corporate content/ads → corporate landing page → qualified enquiry → quote → paid booking. Segment message and destination by intent; retarget with useful product details where consent allows.
+Adult hero/UGC → monthly subscription as the main online offer → single-ticket alternative. Corporate content/ads → corporate landing page → qualified enquiry → quote → paid booking. Segment message and destination by intent; retarget with useful product details where consent allows.
 
 Before scaling, test mobile forms and sales handoff; validate Meta/Google events, cross-domain attribution and duplicate handling against actual orders. Track landing visits, valid/qualified enquiries, quotes, paid bookings, attendance, contribution and repeat use. Views/shares remain interest signals. No budget, targets or uplift invented without account and sales data.
 
@@ -74,3 +74,14 @@ Added to digital conversion in chapter 14, alongside the corporate page and sale
 The supplied Google screenshot is preserved unchanged in public/assets/google-search-gathering-kantor-jakarta.png and registered as S30. It shows the query, outing guides, a team-building provider and related questions. Capture time, location and personalisation are not established. It does not prove high search volume, CPC, ad competition or SuperPark's overall rank.
 
 Validate monthly volume, twelve-month trends and estimated CPC for Jakarta/Jabodetabek in Keyword Planner before budgeting. Launch only after the corporate page, lead qualification and sales handoff work. Measure qualified lead cost, quotes, paid bookings and contribution. Proposed ad: “Gathering Kantor yang Beda? Ajak Tim Main di SuperPark.” CTA: “Minta Penawaran untuk Tim”. No live ad account is changed.
+
+
+## Subscription-led online sales revision
+
+Action 2 now explicitly recommends monthly subscription access as the main online adult offer, using gym/fitness membership as an analogy for a routine and a period of access. Annual access is a later step after repeat demand is established; single tickets serve occasional visitors. Corporate programmes retain their own quote route. Discount memberships are not equivalent to access subscriptions.
+
+The visible calculator is removed. A static example uses a Rp200,000 ticket and Rp600,000 monthly subscription with four included visits. Four tickets would cost Rp800,000: Rp200,000 saved (25%), or Rp150,000 per used visit. One visit remains cheaper with a ticket.
+
+For the same 100 customers, assume one ticket per customer without a subscription and four used visits per customer with one. Monthly sales: Rp20m versus Rp60m. At 3% fees and Rp25,000 incremental cost per visit, contribution is Rp16.9m versus Rp48.2m: +Rp40m sales and +Rp31.3m contribution. These are illustrative assumptions, not approved DreamUs prices or a demand forecast. Contribution excludes fixed costs, acquisition costs and displaced peak sales; it is not profit. Compare prices on the same tax/refund/discount basis.
+
+Sensitivity: if customers already buy four tickets, ticket contribution is Rp676,000/customer versus Rp482,000 with the pass: Rp194,000 less. The commercial case therefore depends on extra demand, use, costs and renewal. Four included visits are capped access, not unlimited. Recurring revenue requires actual renewal; prepaid monthly access can bridge to recurring billing when systems and consent are ready.

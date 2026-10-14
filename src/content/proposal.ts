@@ -11,7 +11,7 @@ export const chapters = [
   { id: 'moves', title: 'Three actions', stage: 'Three moves' },
   { id: 'activation', title: '1. Build the adult brand campaign', stage: 'Three moves' },
   { id: 'tiktok', title: 'The UGC series: Clock Out. Play On.', stage: 'Three moves' },
-  { id: 'subscription', title: '2. Build a reason to return', stage: 'Three moves' },
+  { id: 'subscription', title: '2. Lead online with subscriptions', stage: 'Three moves' },
   { id: 'digital-campaign', title: '3. Turn interest into bookings', stage: 'Three moves' },
   { id: 'plan', title: 'Test it with the team', stage: 'The plan' },
   { id: 'mandate', title: 'What hiring me unlocks', stage: 'The plan' },
@@ -40,7 +40,7 @@ export const storyBridges = [
 
 export const moves = [
   { section: 'activation', title: 'Build a brand campaign for adults.', why: '“This place is for us, too.”', body: 'One hero message across content, TikTok UGC, social profiles and partnerships.', tag: '01 / BRAND CAMPAIGN' },
-  { section: 'subscription', title: 'Build an offer worth returning for.', why: '“Let’s make this a regular plan.”', body: 'Design subscription-first pricing for professionals, plus clear corporate offers.', tag: '02 / PRODUCT & PRICING' },
+  { section: 'subscription', title: 'Lead online with subscription passes.', why: '“Let’s make this a regular plan.”', body: 'Make monthly access the main online offer for professionals. Build repeat value and clear corporate packages.', tag: '02 / PRODUCT & PRICING' },
   { section: 'digital-campaign', title: 'Turn interest into bookings.', why: '“I know what to book and how.”', body: 'Connect digital campaigns, focused landing pages, sales follow-up and measurement.', tag: '03 / DIGITAL CONVERSION' },
 ];
 
